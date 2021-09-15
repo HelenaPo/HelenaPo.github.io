@@ -1,5 +1,6 @@
-alert('name' && (age>18));
-alert((role=Admin)&&(occupation=CEO));
-alert(alert('occupation')||null||alert('role'));
-alert( (role=Admin)||('name'&&(age>18) ) );
-alert(role!=Admin&&'name'&& alert(age));
+
+(name !==undefined) && (age>18);
+(role === "Admin") && (occupation ==="CEO");
+occupation||role;
+(role === "Admin")||(name !== undefined && (age>18) );
+(role === "Admin") && (name !==undefined) && age;
