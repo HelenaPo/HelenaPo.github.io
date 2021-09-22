@@ -1,11 +1,13 @@
 "use strict";
 const doesBeerWant = confirm ('Привет! Ты хочешь пиво?');
+let beerWant;
 
 if (doesBeerWant === true) {
-    alert ('Правильно, в пиве сила, а в воде микробы!');
+    beerWant = ('Правильно, в пиве сила, а в воде микробы!');
 } else {
-    alert ('Ничего не поделаешь, чай только по празникам :D');
+    beerWant = ('Ничего не поделаешь, чай только по празникам :D');
 }
+alert(beerWant);
 
 
 
