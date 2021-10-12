@@ -13,27 +13,27 @@ for (let elem of nombers) {
 console.log(sum1)
 
 //2
-const array =['food', 'cat'];
-const array1=[];
+const array = ['food', 'cat'];
+const array1 = [];
 
 //2.1
 function mapToUpperCase(arr) {
     arr = array.map((elem) => {
-        return elem.toUpperCase()
+        return elem.toUpperCase();
     })
-    console.log(arr)
+    console.log(arr);
 }
-mapToUpperCase()
+mapToUpperCase();
 
 
 //2.2
 function mapToUpperCase(arr) {
-    for(let elem of array){
+    for(let elem of array) {
         arr = elem.toUpperCase();
         array1.push(arr)
     }
     return arr;
 }
-mapToUpperCase()
-console.log(array1)
+mapToUpperCase();
+console.log(array1);
 
