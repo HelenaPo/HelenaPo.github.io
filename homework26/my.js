@@ -28,6 +28,7 @@ class Rabbit extends Animal {
         if (!(food instanceof Vegetable)) {
             throw new Error('No, I am vegetarian!');
         }
+        super.eat(food);
     }
 }
 
@@ -43,6 +44,7 @@ class Snake  extends Animal {
         if (!(food instanceof Rabbit)) {
             throw new Error('No, I only eat rabbits!');
         }
+        super.eat(food);
     }
 
 }
@@ -63,5 +65,6 @@ class Human extends Animal {
         if (food instanceof Human) {
             throw new Error("No, I don't eat people!");
         }
+        super.eat(food);
     }
 }
