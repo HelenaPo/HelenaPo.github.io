@@ -12,7 +12,7 @@ String.prototype.reverse = function () {
 const newArray = Array.prototype.sort;
 
 Array.prototype.sort = function (...args) {
-    return newArray.apply([...this, args]);
+    return newArray.apply([...this], args);
 }
 
 //№3
