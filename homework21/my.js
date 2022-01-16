@@ -1,7 +1,7 @@
 "use strict"
 
 function deepClone(obj) {
-	if(isPromitive(obj)) {
+	if(isPrimitive(obj)) {
 		return obj
 	} else if (isArray(obj)) {
 		return obj.map((val) => {
